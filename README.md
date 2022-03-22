@@ -2,11 +2,11 @@
 
 ## Atualize os seus dados
 
-- Nome:
-- Matrícula:
-- Curso:
-- Semestre/Ano correntes:
-- Link para o seu GitHub:
+- Nome: Vinícius Fiedler Caldeira
+- Matrícula: 17.1.8343  
+- Curso: Sistemas de Informação
+- Semestre/Ano correntes: 2021/2
+- Link para o seu GitHub: github.com/vfiedlerc
 
 ## [Projeto final:](./Projeto/README.md)
 
