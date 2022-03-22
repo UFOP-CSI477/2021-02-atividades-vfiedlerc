@@ -6,7 +6,7 @@
 - Matrícula: 17.1.8343  
 - Curso: Sistemas de Informação
 - Semestre/Ano correntes: 2021/2
-- Link para o seu GitHub: github.com/vfiedlerc
+- Link para o seu GitHub: [https://github.com/vfiedlerc](https://github.com/vfiedlerc)
 
 ## [Projeto final:](./Projeto/README.md)
 
