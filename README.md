@@ -1,6 +1,6 @@
-# **CSI606-2021-02 - Estrutura básica do repositório**
+# **CSI606-2021-02 - Vinícius Fiedler Caldeira**
 
-## Atualize os seus dados
+## Dados de autoria:
 
 - Nome: Vinícius Fiedler Caldeira
 - Matrícula: 17.1.8343  
