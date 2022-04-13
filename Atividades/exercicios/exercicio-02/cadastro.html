@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Formularios e tabelas</title>
+
+
+    <link rel="stylesheet" href="forms.css" />
+
+
+</head>
+
+<body>
+    <h1>Dados do cadastro da pessoa</h1>
+
+    <form method="get" action="validar.html">
+
+        <div>
+
+            <label for="nome"> Nome: </label>
+            <input type="text" name="nome" id="nome" placeholder="Nome da pessoa" />
+        </div>
+
+        <div>
+            <label for="endereco">Endereco: </label>
+            <input type="text" name="endereco" id="endereco" placeholder="Endereco" />
+        </div>
+
+
+        <div>
+
+            <label>Genereo: </label>
+            <div>
+                <input type="radio" name="genero" id="masculino" value="M" />
+                <label for="masculino">Masculino</label>
+            </div>
+            <div>
+                <input type="radio" name="genero" id="feminino" value="F" />
+                <label for="feminino">Feminino</label>
+            </div>
+
+            <div>
+                <input type="radio" name="genero" id="naobinario" value="NB" />
+                <label for="naobinario">Nao binario</label>
+            </div>
+
+
+        </div>
+
+
+<div>
+
+    <label>Areas de interesse: </label>
+
+    <div>
+        <input type="checkbox" name="web" id="web">
+        <label for="web">Sistemas web</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="db" id="db">
+        <label for="db">Banco de dados</label>
+    </div>
+
+    <div>
+        <input type="checkbox" name="redes" id="redes">
+        <label for="redes">Redes</label>
+    </div>
+</div>
+
+        <input type="submit" value="Cadastrar" />
+        <input type="reset" value="Limpar" />
+
+
+    </form>
+<a href="index.html">Voltar</a>
+</body>
+
+</html>

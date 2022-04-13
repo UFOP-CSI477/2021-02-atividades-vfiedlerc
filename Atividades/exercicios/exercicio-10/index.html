@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introducao ao JS</title>
+
+  <script>
+
+function Pessoa(nome, sobrenome){
+
+  this.nome = nome;
+  this.sobrenome = sobrenome;
+}
+
+const pessoa = new Pessoa('vinicius', 'fiedler');
+
+    function carregarDados(){
+      const nome = window.prompt('insira seu nome: ');
+      document.getElementById('data').innerHTML = Date();
+      document.getElementById('nome').innerHTML = nome;
+
+      for(let i=0; i<10; i++){
+
+        console.log(i);
+      }
+    }
+  </script>
+
+</head>
+<body>
+  <script>
+    document.write('Ola');
+  </script>
+
+  <div id="dados">
+    <div id="data"></div>
+    <div id="nome"></div>
+  </div>
+
+  <input type="button" value="Carregar" onclick="carregarDados()">
+</body>
+</html>

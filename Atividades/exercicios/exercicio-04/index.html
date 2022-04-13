@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  
+    <head>
+        <title>CSS introducao</title>
+        <style type="text/css">
+html{
+
+  font-family: 'Roboto', sans-serif, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+         body{
+           margin: 0;
+         }
+         h1,h2,h3,h4{
+           margin-top: 0;
+         }
+
+         h1, h2{
+           font-size: 40pt;
+           color: #0000FF;
+         }
+
+
+         p.info{
+           font-family: arial;
+           font-size: 18pt;
+         }
+
+         #codigo{
+
+          border-color: #c6c6c6;
+          color: yellow;
+          border-style: solid;
+          border-radius: 15px;
+         }
+        
+         a{
+           color: white;
+           background-color: blue;
+           text-decoration: none;
+           padding: 10px;
+         }
+
+         a:hover{
+           background-color: red;
+           font-weight: bold;
+
+         }
+         a:active{
+           background-color: green;
+           color: black;
+         }
+
+         a:link{
+
+          text-decoration: underline;
+          color: yellow;
+         }
+
+         a:visited{
+
+          background-color: #c6c6c6;
+         }
+         .flex{
+
+          display: flex;
+          flex-direction: row;
+          flex-flow: row wrap;
+          justify-content: center;
+         }
+
+         .flex div {
+            background-color: #0000FF;
+            width: 200px;
+            margin: 20px;
+            line-height: 100px;
+            text-align: center;
+            border-radius: 20px;
+             
+     
+         }
+        </style>
+    </head>
+
+    <body>
+        
+        <header>
+            <h1>Olá, pessoal! Sejam bem-vimdas!</h1>
+        </header>
+        
+        <h2>Curso de programação Web</h2>
+        <h3>Início do curso</h3>
+        <h4>Um ótimo curso para vocês!</h4>
+
+        
+        <!-- Comentário -->
+        <p class="info">Este é um curso de <strong>introdução à Programação Web</strong>.</p>
+
+        <p style="color: red;" >Texto em parágrafo.</p>
+
+        <div class="flex">
+
+          <div>
+            <a href="http://www.ufop.br/" target="_blank">Site da UFOP</a>
+          </div>
+          
+          <div >
+            <a href="cadastro.html">Cadastro</a>
+          </div>
+           
+           <div>
+
+            <a href="relatorio.html">Relatório</a>
+           </div>
+           
+           
+          
+        </div>
+
+        <div>
+<!-- Obsolete: width -->
+<img width="20%" src="./img/logo-decsi.png" alt="Logotipo do Decsi">
+
+        </div>
+        
+
+        <footer>
+            Sistemas Web I
+        </footer>
+    </body>
+</html>
