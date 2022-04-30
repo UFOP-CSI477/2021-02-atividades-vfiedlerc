@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Introducao ao JS - Formularios</title>
+  <title>Introducao ao JS</title>
 
   <script>
 
@@ -26,41 +26,19 @@ const pessoa = new Pessoa('vinicius', 'fiedler');
         console.log(i);
       }
     }
-
-    function carregarDadosForm(){
-
-      const nome = document.formDados.nome.value;
-      const sobrenome = document.formDados.sobrenome.value;
-      const pessoa = new Pessoa(nome, sobrenome);
-      console.log(pessoa);
-      window.alert(`Dados carregados com sucesso!: ${nome} ${sobrenome}`);
-
-      let obj = {
-        name: nome,
-        lastname: sobrenome,
-        address:{
-          street: 'rua julio costa'
-        }
-      };
-      console.log(obj)
-    }
   </script>
 
 </head>
 <body>
- 
+  <script>
+    document.write('Ola');
+  </script>
 
   <div id="dados">
     <div id="data"></div>
     <div id="nome"></div>
   </div>
 
-  <form action="post" name="formDados"> 
-    <input type="text" name="nome"/>
-    <input type="text"  name="sobrenome"/>
-  </form>
-
-  
-  <input type="button" value="Carregar" onclick="carregarDadosForm()">
+  <input type="button" value="Carregar" onclick="carregarDados()">
 </body>
 </html>
