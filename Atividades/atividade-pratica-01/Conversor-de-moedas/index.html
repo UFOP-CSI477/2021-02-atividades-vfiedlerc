@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Moedas</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+<body>
+  <div class="container">
+    <h2 class="heading">Conversor de Moedas</h2>
+    <div class="rate">
+      <div class="rate1"></div>
+      <div class="rate2"></div>
+    </div>
+    <div class="main">
+      <div class="initial">
+        <div class="options"><select></select></div>
+        <div class="input"><input type="number"></div>
+      </div>
+      <span class="material-icons swap" style="font-size: 46px;">
+      swap_horiz</span>
+      <div class="target">
+        <div class="options"><select></select></div>
+        <div class="input"><input disabled type="number"></div>
+      </div>
+    </div>
+    <button class="result">Resultado</button>
+  </div>
+  <script src="conversor.js"></script>
+</body>
+</html>
