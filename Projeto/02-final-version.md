@@ -11,19 +11,29 @@
   (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
 
 ### 1. Funcionalidades implementadas
-<!-- Descrever as funcionalidades que eram previstas e foram implementas. -->
+Nesse sistema é possível cadastrar, listar, editar e excluir um projeto.
+Também é possível controlar o orçamento, selecionar a categoria do projeto e adicionar serviços ao projeto.
   
 ### 2. Funcionalidades previstas e não implementadas
-<!-- Descrever as funcionalidades que eram previstas e não foram implementas, apresentando uma breve justificativa do porquê elas não foram incluídas -->
+Uso de typescript e backend em nodejs.
 
 ### 3. Outras funcionalidades implementadas
-<!-- Descrever as funcionalidades implementas além daquelas que foram previstas, caso se aplique.  -->
+Uso de php e backend em laravel
 
 ### 4. Principais desafios e dificuldades
-<!-- Descrever os principais desafios encontrados no desenvolvimento do trabalho, quais foram as dificuldades e como elas foram superadas e resolvidas. -->
+Os principáis desafios e dificuldades na minha opnião é unificar todo o conteudo de frontned com backend e ser um programador que entende dos dois lados, foi bem complicado lidar com alguns erros do react e entender no começo a idéia de popular em javascript e php, os estados dos objetos também é complicado de entender no começo e a conexão e modelagem de banco de dados também.
 
 ### 5. Instruções para instalação e execução
-<!-- Descrever o que deve ser feito para instalar (ou baixar) a aplicação, o que precisa ser configurando (parâmetros, banco de dados e afins) e como executá-la. -->
+Front End na raiz da pasta project-management
+npm install
+npm start
+
+Back End na raiz da pasta project-management-backend
+composer install
+php artisan migrate
+php artisan serve
 
 ### 6. Referências
-<!-- Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->
+https://reactjs.org/
+https://laravel.com/docs/9.x/installation
+
