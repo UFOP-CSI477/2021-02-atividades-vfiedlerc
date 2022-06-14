@@ -1,0 +1,16 @@
+html {
+    font-family: 'Noto Sans', sans-serif;
+}
+
+*, *::before, *::after {
+    font-family: inherit;
+}
+
+.bg-greenish {
+    background: #00704A;
+}
+
+.nav-link,
+.navbar-brand {
+    color: white!important;
+}
