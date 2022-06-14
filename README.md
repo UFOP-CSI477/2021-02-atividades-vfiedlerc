@@ -10,4 +10,4 @@
 
 ## [Projeto final:](./Projeto/README.md)
 
-Apresente uma breve descrição do seu projeto.
+Criação de um gerenciador de projetos usando ReactJS e Laravel, respeitando o design de padrões MVC.
