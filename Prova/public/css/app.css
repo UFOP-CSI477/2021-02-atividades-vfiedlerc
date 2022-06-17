@@ -1,0 +1,256 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav-principal {
+    background-color: #7952b3;
+    color: white;
+}
+
+#tabela-vacinas,
+#tabela-pessoas,
+#tabela-unidades,
+#tabela-registros {
+    width: 70%;
+    height: 70%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#btn-painelvoto {
+    width: 20%;
+    background-color: #7952b3;
+    color: white;
+}
+
+#btn-inclusaopt {
+    background-color: #7952b3;
+    padding: 5px;
+    color: white;
+}
+
+#tabela-votos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 70%;
+    margin: 50px auto;
+}
+
+#form-vacina,
+#form-pessoa,
+#form-unidade,
+#form-registro {
+    color: white;
+    padding: 10px;
+    width: 40%;
+    height: 70%;
+    margin: 35px auto;
+    display: grid;
+    place-items: center;
+    background-color: #7952b3;
+    border-radius: 5px;
+}
+
+#show-vacina,
+#show-pessoa,
+#show-unidade,
+#show-registro {
+    color: white;
+    padding: 10px;
+    width: 40%;
+    height: 70%;
+    margin: 35px auto;
+    display: grid;
+    place-items: center;
+    background-color: #7952b3;
+    border-radius: 5px;
+}
+
+#btn-show {
+    display: flex;
+    place-items: row;
+    margin-bottom: 10px;
+}
+
+#edit-vacina,
+#edit-pessoa,
+#edit-unidade,
+#edit-registro {
+    color: white;
+    padding: 10px;
+    width: 40%;
+    height: 70%;
+    margin: 35px auto;
+    display: grid;
+    place-items: center;
+    background-color: #7952b3;
+    border-radius: 5px;
+}
+
+#btn-editpt {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+#btn-creatept {
+    display: grid;
+    place-items: center;
+}
+
+#cadastrar-voto {
+    color: white;
+    padding: 10px;
+    width: 40%;
+    height: 70%;
+    margin: 35px auto;
+    display: grid;
+    place-items: center;
+    background-color: #7952b3;
+    border-radius: 5px;
+}
+
+#btn-cadastrovoto {
+    display: grid;
+    place-items: center;
+}
+
+#edit-voto {
+    color: white;
+    padding: 10px;
+    width: 40%;
+    height: 70%;
+    margin: 35px auto;
+    display: grid;
+    place-items: center;
+    background-color: #7952b3;
+    border-radius: 5px;
+}
+
+#show-voto {
+    color: white;
+    padding: 10px;
+    width: 40%;
+    height: 70%;
+    margin: 35px auto;
+    display: grid;
+    place-items: center;
+    background-color: #7952b3;
+    border-radius: 5px;
+}
+
+#btn-showvoto {
+    display: flex;
+    place-items: row;
+    margin-bottom: 10px;
+}
+
+#btn-finalvoto {
+    width: 20%;
+    background-color: #7952b3;
+    color: white;
+}
+
+#img-navbar {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+}
+
+#img-adm {
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+}
+#teste {
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+#logos-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px;
+}
+
+#tabela1,
+#tabela2 {
+    width: 70%;
+    height: 70%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-purple {
+    background: #7952b3;
+    color: #FFF;
+}
+
+.btn-purple:hover {
+    color: white;
+}
+
+.btn-purple:focus {
+    box-shadow: 0 0 0 0.25rem rgb(121 82 179 / 0.25);
+    color: white;
+}
+
+/* base */
+.navbar {
+    margin-bottom: 48px;
+    z-index: 999;
+}
+
+/* welcome */
+.container-centralizado {
+    display: grid;
+    place-items: center;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.laravel-logo {
+    background: url('https://cdn.iconscout.com/icon/free/png-256/laravel-3627701-3028927.png') no-repeat center;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    z-index: -1px;
+}
+
+
+/* admin */
+.admin-links-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: underline;
+}
+
+.admin-links-container .link + .link {
+    margin-top: 50px;
+}
